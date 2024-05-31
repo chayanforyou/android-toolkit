@@ -62,7 +62,7 @@ android {
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
     }
-    namespace = "com.simplemobiletools.commons.samples"
+    namespace = "com.chayan.toolkit.samples"
 
     lint {
         disable.add("Instantiatable")
@@ -70,7 +70,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.commons)
+    implementation(projects.toolkit)
     implementation(libs.material)
     implementation(libs.androidx.swiperefreshlayout)
 
